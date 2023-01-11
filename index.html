@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+
+        <header>
+
+            
+                <h1>Formulário de Inscrição</h1>
+            
+
+        </header>
+        
+        <div class="flex">
+
+            <div class="flexpai">
+
+                <form method="POST" action="php/script.php">
+                
+                    <div class="container1">
+                    
+                        <div class="inp">
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" name="nome" id="Nome" required> 
+                        </div>
+
+                        <div class="inp">
+                            <label for="end">Endereço:</label><br>
+                            <input type="text" name="end" id="end" required>
+                        </div>
+
+                        <div class="inp">
+                            <label for="tel">Telefone:</label><br>
+                            <input type="tel" name="tel" id="tel" required>
+                        </div>
+                    
+                        <div class="inp">
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        
+                        <div class="inp">
+                            <label for="data">Data de Nascimento:</label><br>
+                            <input type="date" name="data" id="data"  required >
+                        </div>
+
+                        <div class="inp">
+                            <label for="sexo">Sexo:</label><br>
+                            <select id="sexo"  name="sexo" required >
+                            <option value="F">Feminino</option>
+                            <option value="M" > Masculino </option>
+                            <option value="O"> Outro </option>
+                            <option value="4" selected > </option>
+                        </select>
+                        </div>
+                        <br>    
+                        <div class="inp">
+                            <label for="msg">Diga em poucas palavras qual a sua expectativa para essa vaga:</label><br>
+                            <textarea name="msg" id="msg" required cols="25" rows="5" > </textarea>
+                        </div>
+
+                        <br>
+
+                        <div class="inp">
+                            <label for="file">Anexar Currículo e  Documentos:</label>
+                            <input type="file" name="arquivo" id="file"  required >
+                        </div>
+
+                        <br>
+
+                        <div class="submit">
+                            <input name="submit" id="submit" type="image" src="assets/salvar.png" value="SALVAR DADOS" >
+                        </div>
+
+                    </div>
+
+            </div>
+                    <div class="container2"  >
+                        <video id="vid" width="100%" autoplay="" muted="" loop="" src="assets/cont.mp4"></video>
+                        
+                    </div>
+                </form>
+         
+       
+        </div>
+
+    
+    </body>
+
+
+</html>

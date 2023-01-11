@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&family=Share+Tech&display=swap');
+
+* {
+    font-family: 'Share Tech';
+}
+
+body{
+    background-color: #eadeec;
+}
+
+h1{
+    color: #FCD24F;
+    font-family: 'MuseoModerno';
+    font-weight: bold;
+    font-size: 60px;
+    box-shadow:  0px 2px #8F30A6;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+    font-size: 18px;
+}
+
+.inp {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    width: 100%;
+    
+}
+
+input  {
+    width: 80%;
+    outline: none;
+    padding: 10px;
+    font-family: 'MuseoModerno';
+    font-size: 25px;
+    background-color: #eadeec;
+    box-shadow: 0px 2px #8F30A6;
+    border: 0 none;
+    outline: 0;
+}
+
+#msg , #sexo {
+    width: 80%;
+    outline: none;
+    padding: 10px;
+    font-family: 'MuseoModerno';
+    font-size: 25px;
+    background-color: #eadeec;
+    box-shadow: 0px 2px #8F30A6;
+    border: 0 none;
+    outline: 0;
+}
+
+.file , .submit {
+    width: 40%;
+    height: 30%;
+    margin-left: 25%;
+    box-shadow: 0 0 0 0 none;
+    border:0 0 0 0 none;
+    outline: 0 0 0 0 none;
+}
+
+
+.flex {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+
+    background-color: #eadeec;
+    padding: 1px;
+}
+
+.container1 {
+    margin-right: 30px;
+    margin-left: 15%;
+    position: relative;
+}
+
+.container2 {
+    transform: translateY(-30%);
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
